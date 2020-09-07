@@ -1,0 +1,170 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+	@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap');
+
+/*
+font font-family: 'Playfair Display', serif;
+*/
+/*primary background= #fff  
+secondary color: #f0f0f0;
+font color:black;
+sec color:b4ad9e;
+*/
+body{
+	font-family: 'Playfair Display', serif;
+
+}
+h1,h2,h3,h4,h5,h6,span,p,input{
+	font-family: 'Playfair Display', serif;
+}
+.container{
+width: 1140px;
+height: 70px;
+
+margin:0 auto;
+}
+a:hover,a{
+	text-decoration: none;
+}
+
+
+.blog-gallary{
+	width: 100%;
+}
+.gallary{
+width: 91%;
+    float: left;
+    margin: 62px -115px 28px 166px;
+
+
+}
+.left-1{
+	width: 46%;
+float: left;
+margin: 20px;
+
+
+}
+.right-1{
+	    width: 44%;
+    float: left;
+    margin: 20px;
+    
+
+}
+.for-1-text{    
+	margin: 24px 8px 39px 0px;
+
+}
+.for-1-text h1{
+	margin: 18px 0;
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+.for-2-text p,.for-1-text p{
+font-size: 
+
+
+}
+.for-2-text{
+margin: 24px 8px 39px 0px;
+
+}
+
+.for-2-text h1{
+	       margin: 18px 0;
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+/*bolg gallary end*/
+/*botton*/
+.subcription{
+width: 100%;
+    display: flow-root;
+    background-color: #f0f0f0;
+    padding: 80px 0;
+    text-align: center;
+
+}
+.subscrib-body{
+
+}
+.sub-title h1{
+	font-weight: 200;
+	margin-bottom: 29px;
+}
+.sub-form form input{
+        
+   padding: 14px 99px; 
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+form{
+	position: relative;
+
+}
+form input;focus{
+	outline: none; 
+}
+form i{
+	
+	right: 410px;
+    top: 13px;
+    position: absolute;
+}
+.botton button{
+	    padding: 18px 31px;
+	    background-color: transparent;
+	    	    border-radius: 0;
+	    	    outline: none;
+	    	    border-color: black;
+	    	    font-size: 20px;
+
+	    }
+	    .botton{
+	    	text-align: center;
+	    	    margin-left: 168px;
+	    	    display: block;
+	    }
+.footer{
+	width: 100%;
+   display: flow-root;
+    background-color: #f0f0f0;
+        padding: 84px 0 7px 0;
+
+    text-align: center;
+}
+.footer-body{
+	width: 100%;
+	float: left;
+}
+.footer-left{
+	float: left;
+	width: 50%;
+	text-align: left;
+
+}
+.footer-right{
+	float: right;
+	width: 50%;
+	text-align: right;
+
+}
+.footer-right ul li ,.footer-left ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 30px; 
+}
+.footer-right ul li{
+	margin-right: 20px;
+}
+.footer-left ul li{
+	margin-left: 20px;
+}
